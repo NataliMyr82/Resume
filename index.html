@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Это сайт-резюме Натальи Глебовой">
+  <meta name="keywords" content="cv, resume">
+  <title>Natali Resume</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="container">
+    <div class="info">
+      <img src="avatar.jpg" alt="" class="avatar">
+      <div class="info-text">
+        <h1>Глебова Наталья</h1>
+        <p>Я работаю <strong>заместителем финансового директора</strong>.
+          <br>
+          Люблю готовить, печь, путешествовать и программировать.
+        </p>
+        <h4>Список социальных сетей:</h4>
+        <p>
+          <a href="#" target="_blank">Вконтакте</a>
+          |
+          <a href="#" target="_blank">Youtube</a>
+          |
+          <a href="#" target="_blank">Telegram</a>
+      </div>
+    </div>
+    <div class="card bg-yellow">
+      <h2>Мои хобби</h2>
+      <ol class="list">
+        <li>Кулинария</li>
+        <li>Путешествия</li>
+        <li>Винил</li>
+      </ol>
+    </div>
+    <div class="card bg-red">
+      <h2>Опыт работы</h2>
+      <table class="table">
+        <!-- <thead>
+          <tr>
+            <th>Название</th>
+            <th>Должность</th>
+            <th>Год</th>
+          </tr>
+        </thead> -->
+        <tbody>
+          <tr>
+            <td>Лиатрис СПб</td>
+            <td>офис-менеджер</td>
+            <td>2011-2012</td>
+          </tr>
+          <tr>
+            <td>Лиатрис СПб</td>
+            <td>экономист</td>
+            <td>2012-2017</td>
+          </tr>
+          <tr>
+            <td>Зеленый молл</td>
+            <td>Заместитель финансового директора</td>
+            <td>2017-по н.вр</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <form action="/" class="form">
+      <h2>Связаться со мной</h2>
+      <div class="form-row">
+        <div class="form-group">
+          <label for="name">Ваше имя:</label>
+          <input type="text" id="name" placeholder="Введите имя">
+        </div>
+        <div class="form-group">
+          <label for="email">Ваш email:</label>
+          <input type="email" id="email" placeholder="Введите email">
+        </div>
+      </div>
+      <div class="form-group">
+        <label for="message">Ваше сообщение:</label>
+        <textarea id="message" cols="20" rows="5" placeholder="Введите сообщение..."></textarea>
+      </div>
+      <input class="btn" type="submit" value="Отправить!">
+    </form>
+  </div>
+
+</body>
+
+</html>
